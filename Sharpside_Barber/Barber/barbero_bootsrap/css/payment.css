@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ 
+.container{
+   /*background: black ;*/
+   height: 450px;
+   width: 600px;
+   border: 2px solid gold;
+   box-shadow: 0 0 20px black;
+   color: white;
+   border-radius: 10px;
+   padding: 30px 40px;
+   position: absolute; /* Position absolutely */
+   top: 1120px;
+   right: 30px; /* Position to the right */
+   left: 30px; /* Position to the right */
+   transform: translateY(-50%); /* Center vertically */
+   backdrop-filter: blur(10px);
+}
+
+.payment_section{
+   height: 850px;
+}
+
+ .container .input-box{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+ }
+ 
+ .input-box input{
+    width: calc(100% - 10px); /* Adjust the width */
+    height: 45px; /* Adjust the height */
+    background: black;
+    border: 2px solid gold;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    padding: 10px; /* Adjust the padding */
+    margin: 5px 0; /* Adjust the margin */
+ }
+ 
+ .input-box::placeholder{
+     color: black;
+ }
+ 
+ .sex{
+    position: absolute; /* Position absolutely */
+    bottom: 200px; 
+    left: 50%; /* Position horizontally at the center */
+    transform: translateX(-50%); /* Center horizontally */
+ }
+ 
+ .user_type{
+    position: absolute; /* Position absolutely */
+    bottom: 170px; 
+    left: 50%; /* Position horizontally at the center */
+    transform: translateX(-50%); /* Center horizontally */
+ }
+ 
+ .login-link{
+    position: absolute; /* Position absolutely */
+    bottom: 50px; /* 20px from the bottom */
+    left: 50%; /* Position horizontally at the center */
+    transform: translateX(-50%); /* Center horizontally */
+ }
+ 
+ .btn{
+    width: 337px;
+    height: 45px;
+    background: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-decoration-break: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    display: block;
+    position: absolute; /* Position absolutely */
+    margin-top: 5px;
+    left: 50%; /* Position horizontally at the center */
+    transform: translateX(-50%); /* Center horizontally */
+ }
