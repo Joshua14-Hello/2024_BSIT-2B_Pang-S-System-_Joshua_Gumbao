@@ -1,0 +1,70 @@
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 15px 0;
+    position: relative;
+}
+
+.main-header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15%;
+}
+
+.main-header .navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Takes available space */
+    justify-content: space-between;
+}
+
+.main-header .navbar .navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.main-header .navbar .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.main-header .navbar .navbar-brand img {
+    height: 50px;
+}
+
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: gold;
+    text-shadow: 0 0 100px gold;
+}
+
+.page-title-section {
+    min-height: 610px; /* Same as section min-height for consistency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    min-height: 700px; /* Adjust based on desired minimum height */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
